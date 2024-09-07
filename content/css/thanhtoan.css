@@ -1,0 +1,217 @@
+.article_thanhtoan {
+    min-height: 603px;
+}
+
+.article_thanhtoan .thongTin_nguoiNhan {
+    max-width: 1000px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.article_thanhtoan .thongTin_nguoiNhan .tieuDe_thongtin {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: tomato; */
+}
+
+.thongTin_nguoiNhan .form_main {
+    max-width: 700px;
+}
+
+.thongTin_nguoiNhan .form_main form .form__row {
+    display: flex;
+}
+
+.form__row .form__label {
+    padding-left: 20px;
+    min-width: 100px;
+}
+
+.form__row+.form__row {
+    margin-top: 20px;
+}
+
+.form__row .form__input {
+    flex: 1;
+    padding: 5px 0 5px 0;
+    border-radius: 3px;
+}
+
+/*  */
+.article_thanhtoan .sanPham_thanhToan {
+    max-width: 1000px;
+    min-height: 150px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.article_thanhtoan .sanPham_thanhToan .tieuDe_thanhToan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tieuDe_thanhToan .TTSP1 {
+    width: 25%;
+    padding-left: 20px;
+}
+
+.tieuDe_thanhToan .TTSP2 {
+    width: 30%;
+    text-align: left;
+}
+
+.tieuDe_thanhToan .TTSP3 {
+    width: 15%;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.tieuDe_thanhToan .TTSP4 {
+    text-align: center;
+    width: 15%;
+    font-size: 14px;
+    color: gray;
+}
+
+.tieuDe_thanhToan .TTSP5 {
+    text-align: center;
+    width: 15%;
+    font-size: 14px;
+    color: gray;
+}
+
+.sanPham_thanhToan .thongTin_SP_thanhToan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thongTin_SP_thanhToan + .thongTin_SP_thanhToan {
+    margin-top: 10px;
+}
+
+.thongTin_SP_thanhToan .boxTT1 {
+    width: 25%;
+    padding-left: 20px;
+}
+.thongTin_SP_thanhToan .boxTT1 img {
+    width: 25%;
+}
+.thongTin_SP_thanhToan .boxTT2 {
+    width: 30%;
+}
+
+.thongTin_SP_thanhToan .boxTT3 {
+    width: 15%;
+    text-align: center;
+}
+
+.thongTin_SP_thanhToan .boxTT4 {
+    width: 15%;
+    text-align: center;
+}
+
+.thongTin_SP_thanhToan .boxTT5 {
+    width: 15%;
+    text-align: center;
+}
+
+/* đặt hàng */
+.box_datHang {
+    max-width: 1000px;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.box_datHang .item_datHang {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.item_datHang button {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: tomato;
+    border-radius: 2px;
+}
+
+/* hiển thị messenger thông báo */
+.Mesenger_thongBao {
+    display: none;
+    position: fixed;
+    right: 550px;
+    top: 270px;
+    width: 400px;
+    height: 160px;
+    background-color: #FFF;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+    border-left: 3px solid #EBB353;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 9999999;
+    border-radius: 3px;
+}
+.Mesenger_thongBao .icon_h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mesenger_thongBao h3 {
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+/*  */
+.box_mesenger {
+    display: flex;
+    flex-direction: column;
+    /* background-color: tomato; */
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.box_mesenger .icon_text {
+    display: flex;
+}
+.box_mesenger .mesenger_Text {
+    text-align: left;
+    padding-left: 5px;
+}
+.icon_text i {
+    color: #EBB353;
+}
+.pay_btn {
+    text-align: right;
+    margin-top: 8px;
+}
+.pay_btn button {
+    padding: 3px 16px 3px 16px;
+    border-radius: 2px;
+    background-color: #EBB353;
+    color: white;
+    border: 0;
+}
+
+/* overlay */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(00, 00, 00, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
